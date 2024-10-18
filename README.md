@@ -5,7 +5,22 @@
 <img src="assets/github-repo-logo.gif" alt="daily.dev animated logo" height="80">
 
 <br>
+# Build by DIFY filosofy.
+Get close to localhost far away for any cloud.
 
+``` bash
+echo any $(API_CRED_KEY) #or with i {before(str Cloud)} || (or) similar with doble u.
+```
+## Getting started
+For being more serious about it and getting first steps
+``` bash
+gnx status daily # get status or next steps
+```
+Satrting service
+``` bash
+gnx start daily --dev -p 8544
+```
+for remainning old picture and inspiration we will be left the old md version here
 # Welcome to the daily.dev repository
 
 We know how hard it is to be a developer. It doesn't have to be. <br/>
