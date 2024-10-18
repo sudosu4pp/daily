@@ -1,59 +1,67 @@
-## Build by DIFY filosofy (sticky elevator prhase)
+<div style="text-align: center;">
+  <h1>daily.dev.gnx App Suite: The GNX DIFY Apocalypse (Almost Ready)</h1>
+  <p><strong>Behold, the glorious (and slightly buggy) future of daily.dev.gnx! 👀 Prepare for updates... eventually.</strong></p>
+</div>
 
-Get close to localhost far away for any cloud
-## Getting started
-For staying far away and mantain own data in a secure manner first need to start with dev env. Make sure that API_GNX_KEY by now just for developer enviroments. If you run own node be sure place your own key.
-``` bash
-#or with i {before(str Cloud), '|| (or) similar with doble u.'} double 🫵
-echo $(API_GNX_KEY) 2>&1 | gnx stream
-```
+<div style="display: flex; justify-content: center; margin-bottom: 1em;">
+  <a href="https://circleci.com/gh/sudosu4pp/apps">
+    <img src="https://img.shields.io/circleci/build/github/sudosu4pp/apps/master.svg" alt="Build Status (Probably Green, Maybe Red, Who Knows?)">
+  </a>
+  <a href="https://github.com/sudosu4pp/apps/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/sudosu4pp/apps.svg" alt="License (Because Lawyers)">
+  </a>
+  <a href="https://stackshare.io/sudosu4pp/daily">
+    <img src="http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="StackShare (Our Tech Stack, Mostly Stable...ish)"> 🔜📌
+  </a>
+</div>
 
-For being more punctual about it and taking getting started like pro, first steps run in your shell bash
-``` bash
-gnx status daily # get status or next steps will print
-```
-### Satrting service
-``` bash
-# by example suggested --dev -p 8544
-gnx start daily
-```
+<div style="display: flex; justify-content: center;">
+  <a href="https://gitpod.io/#https://github.com/sudosu4pp/apps/">
+    <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in GitPod (Because Debugging Locally is Masochistic)"> 🔜📌
+  </a>
+</div>
 
-## Welcome to the daily.dev.gnx
-### Repository DIFY version 
-Where the coffee's strong and the deadlines are even stronger.
+<p>This monorepo houses the daily.dev.gnx app suite – a testament to our questionable life choices and caffeine addiction. It includes the web app and extension, sharing components because we believe in suffering together.</p>
 
-We get it. Being a developer is like wrestling a greased octopus blindfolded. But it doesn't have to be a constant existential crisis. daily.dev.gnx is here to be your developer-shaped life raft in a sea of Stack Overflow despair. Personalized news, communities that actually listen, and a search function that doesn't just return 10,000 results for "undefined is not a function." Maybe. 😉
+## Technology (or, The Stuff We Used and Probably Regret)
 
-🔜 (Shields of Glory (or, at least, mildly impressive statistics))
+- Node v20.12.0 (because we're *totally* on the bleeding edge... or maybe just behind schedule). A `.nvmrc` is provided for [nvm](https://github.com/nvm-sh/nvm) users (because we care... sort of).
+- [pnpm](https://pnpm.io/workspaces) for managing the monorepo (because dependency hell is fun!).
 
-Help your fellow developers avoid the fiery pits of despair. Share the (slightly less painful) daily.dev.gnx. experience.
+## Projects (aka, Our Frankensteinian Creation)
 
-### Forget daily standup meeting for ever maybe.
-👀 Watch it in action (or, at least, a very well-produced video about it) → soon 👀 [daily.dev.gnx Repo](https://github.com/sudosu4pp/daily)
+### eslint-config (Our Attempt at Code Style)
 
-💜 About daily.dev.gnx Dify version (Because even cynical developers need a little love)
-A professional network for developers. Because sometimes, you just need to commiserate with your people. 👩‍💻
+Shared ESLint settings. Because consistency is a myth.
 
-We're not saying daily.dev.gnx is the answer to all your developer woes (though, wouldn't that be nice?), but it's a pretty good start. Discover knowledge, build communities, and discuss the latest trends – all without sacrificing your precious weekend. It even works offline! (Because let's face it, your internet connection is probably more unreliable than your code sometimes.)
+### extension (The Browser Extension That Might Actually Work)
 
-Star us. It'll make us feel better about the existential dread of coding. ⭐️
+The browser extension project. Includes webpack (because why not add another layer of complexity?).
 
-📌 Get daily.dev.gnx (because downloading things is way easier than writing code)
-We're on Chrome, Edge, Firefox, and even mobile. Because we love you. 🔜📌
+### prettier-config (Prettier: Because We Like Pretty Code... Sometimes)
 
-Buttons – Because who reads text when there are shiny buttons?
+Shared Prettier settings. Because arguing about semicolons is a team-building exercise.
 
-📯 Philosophy (because even sarcastic developers have a reason for existing)
-Developers are the unsung heroes of the digital age. We build the world, one line of code at a time. daily.dev.gnx is for developers, by developers. We understand the struggle. The never-ending learning curve. The caffeine addiction. We're here to help you navigate the chaos and actually enjoy the process (or at least tolerate it a little better).
+### shared (The Shared Components That Never Quite Work Together)
 
-👨‍💻 Learn and stay up-to-date (so you don't get left behind in the ever-evolving tech landscape).
-🙌 Interact with other developers (because complaining about your boss is way more fun with friends).
-🚀 Collaborate (because teamwork makes the dream work... or at least makes the deadline slightly less terrifying).
-🌲 daily.dev.gnx projects (because even the most cynical developer needs a project to work on)
-🔜 (A list of projects. Because lists are organized and predictable, unlike most software development projects.)
+Shared components. Because code reuse is a noble goal, even if it rarely works out.
 
-🚀 Running daily.dev.gnx locally for your team Product Docs · Changelog · Report a Bug · Request a Feature · selfhost Swag Store · DIFY Brand Assets 🔜 
-🙌 Want to contribute? (because even the most jaded developer secretly wants to make a difference)
+### webapp (The Next.js App That's Almost Ready)
 
-All of that in localhost
-In suggested example just enter http://localhost:8544 and start from there.
+The web app project (a Next.js project, naturally). Features include a registration page (because we need users!), a post page (because content is king!), and a profile page (because vanity is a powerful motivator). For more info, [click here](https://github.com/sudosu4pp/apps/tree/master/packages/webapp) (if you dare).
+
+## Local Environment (aka, The Gauntlet)
+
+To run this locally, use GitPod (because we're not *actually* sadists). Everything is configured (mostly). Click the GitPod button above and brace yourself.
+
+## Want to Help? (Please, We Beg You) not this stage but... be aware
+
+Want to contribute? Excellent! We're desperate. Before you start, please read our contribution guidelines: [https://github.com/sudosu4pp/.github/blob/master/CONTRIBUTING.md](https://github.com/sudosu4pp/.github/blob/master/CONTRIBUTING.md) (because we're not responsible for your sanity).
+
+## Bootstrap Project (The Ritualistic Incantation)
+
+After cloning (if you're brave enough), run these commands:
+
+```bash
+npm i -g pnpm@8.15.7
+pnpm install
